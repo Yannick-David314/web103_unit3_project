@@ -1,0 +1,34 @@
+.all-events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(3, 1, 64, 0.85);
+    border: 2px solid white;
+}
+
+.events-controls label {
+    color: white;
+    font-weight: 700;
+}
+
+#root .events-controls select {
+    width: 280px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.all-events main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}

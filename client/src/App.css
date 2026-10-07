@@ -1,9 +1,5 @@
 .app {
-    background: url('./assets/unitygrid.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: black;
 }
 
 header {
@@ -15,16 +11,20 @@ header {
 
 .main-header {
     height: 30vh;
-    width: 85vw;
+    width: 100%;
     align-items: flex-end;
     position: relative;
     z-index: 1;
 }
 
 .header-buttons {
-    width: 30%;
     display: flex;
-    justify-content: space-around;
+    gap: 12px;
+}
+
+#root .header-buttons [role=button] {
+    font-size: 0.9em;
+    padding: 8px 20px;
 }
 
 .header-buttons button {
